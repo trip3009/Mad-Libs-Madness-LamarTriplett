@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MadLibs</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <form id="form">
+      <h1>Mad Libs</h1>
+              <h3>Pick Your Words</h3>
+        <input type="text" 
+               placeholder="A Ralative" 
+               id="relative">
+        <input type="text" 
+               placeholder="Adjective" 
+               id="adjective-1">
+        <input type="text" 
+               placeholder="Adjective" 
+               id="adjective-2">
+        <input type="adjective" 
+               placeholder="Adjective" 
+               id="adjective-3">
+        <input type="adjective" 
+               placeholder="A Famous Person" 
+               id="famous_person">
+        <input type="text" 
+               placeholder="Noun" 
+               id="noun">
+        <input type="text" 
+               placeholder="A Desset" 
+               id="dessert">
+        <input type="text" 
+               placeholder="Your Pet's Name" 
+               id="pet_name">
+
+        <button type="button" 
+                onclick="generate()">Generate</button>
+      </form>
+      <div id="output"></div>
+<!--       <section class="wordstuff" col-6>
+      <div class="wordpic"></div>
+      <img src="https://i.imgur.com/ZzN3i1P.png"/>
+    </section> -->
+    </div>
+<!--     <section class="wordvid">
+            <div class="myflex col-6">
+                  <div>
+                        <video autoplay muted loop id="myvid1">
+    //Hey! Rather than a href tag, use a <source> tag below. - Ianne 
+                          <href src="media7/word_vacation.mp4" type="video/mp4">
+                        </video>
+                      </div>
+                 </div>
+      </section> -->
+    
+    <script src="script.js"></script>
+  </body>
+</html>
